@@ -1,0 +1,67 @@
+/* Add global styling here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styling for the card layout */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Styling for the card */
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  h5 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  h6 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #6c757d;
+  }
+
+  img {
+    border-radius: 7.5px;
+    width: 180px;
+    height: 200px;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
