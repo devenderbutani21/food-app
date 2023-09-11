@@ -21,6 +21,7 @@ body {
   .card {
     background-color: white;
     border-radius: 8px;
+    padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
   }
@@ -48,8 +49,8 @@ body {
 
   img {
     border-radius: 12.5px;
-    width: 175px;
-    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
   }
   
   /* Media query for responsiveness */

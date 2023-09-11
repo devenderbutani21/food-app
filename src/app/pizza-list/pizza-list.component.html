@@ -1,13 +1,12 @@
 <!-- pizza-list.component.html -->
+<h2><b>Pizza Choices</b></h2>
 <div class="row">
   <div class="column" *ngFor="let pizza of pizzas">
     <div class="card">
-      <div class="container">
        <img class="img" [src]="pizza.imgUrl" />
         <h4><b>{{pizza.pizzaName}}</b></h4>
         <h5>{{pizza.price | currency}}</h5>
-        <h5>Rating: {{pizza.rating}}</h5>
-      </div>
+        <h5>Rating:   {{pizza.rating}}</h5>
     </div>
   </div>
 </div>
