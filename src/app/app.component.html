@@ -4,40 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Options</title>
-  <style>
-    /* Add CSS styles for your header here */
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      color: white;
-      padding: 10px;
-      margin-top: -35px;
-      margin-left: -70px;
-      margin-right: -70px;
-    }
-    
-    .logo {
-      text-decoration: none;
-      color: white;
-      font-size: 24px;
-    }
-    
-    .header-right {
-      display: flex;
-    }
-    
-    .header-right a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    
-    .header-right a.active {
-      font-weight: bold;
-    }
-  </style>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
   <div class="header">
@@ -52,5 +23,20 @@
   <div>
     <app-pizza-list></app-pizza-list>
   </div> 
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-6 mb-0 text-body-secondary" style="display: inline-block;">&copy; 2023 Company, Inc</div>
+      <div class="col-md-6" style="display: inline-block;">
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  
+    
 </body>
 </html>
