@@ -1,5 +1,31 @@
-# MyApp
+# Food Website
 
+I have developed a demonstration to showcase my REST API, specifically highlighting the retrieval of data related to Pizza options. The foundational structure of the website has been constructed using Bootstrap.
+
+## Qucik Demo
+![image](https://github.com/devenderbutani21/food-app/assets/19952341/96003f88-fce2-4f1f-9d9d-c199218b0506)
+
+
+## 🚀 Features
+- Fetching Data from my Food REST API for a websites for displaing Pizza Options
+- [Request more features](#feature-request)...
+  
+<a id="bug"></a>
+
+## 🐛 Bug Reporting
+
+Feel free to [open an issue](https://github.com/devenderbutani21/food-app/issues) on GitHub if you find any bug.
+
+<a id="feature-request"></a>
+
+## ⭐ Feature Request
+
+- Feel free to [open an issue](https://github.com/devenderbutani21/food-app/issues) on GitHub to request any additional features you might need for your use case.
+- Connect with me on [LinkedIn](linkedin.com/in/devender-butani/). I'd love ❤️️ to hear where you are using this library.
+
+<a id="release-notes"></a>
+
+## Basic Info
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
 ## Development server
